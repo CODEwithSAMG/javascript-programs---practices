@@ -1,0 +1,12 @@
+function recursion (fibo){
+    if(fibo == 1 || fibo == 2){
+        return 1
+    }
+        else{
+             return recursion (fibo -1) + recursion(fibo - 2);
+    }
+    
+}
+
+let a = recursion(10)
+console.log(a);

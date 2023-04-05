@@ -1,0 +1,25 @@
+Ques: Multiply each element by 2 and return only those elements which are greater than 10?
+
+// map method with filter method together they called chaining methods
+
+let arr = [2,3,4,6,8];
+let myArr = arr.map((curElem)=>{
+    return curElem*2
+}).filter((curElem)=>{
+    console.log(curElem, "after performing map method")
+    return curElem>10
+})
+
+console.log(myArr)
+
+
+
+
+output: 
+
+4
+6
+8
+12
+16
+[ 12, 16 ]

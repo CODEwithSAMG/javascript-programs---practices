@@ -1,0 +1,24 @@
+1.//object entries, keys, values
+
+//starting point 
+const person = {
+    name : "shivam",
+    lName : "garg",
+    age: 23,
+    }
+
+const objKeys = Object.keys(person)
+const objValues = Object.values(person)
+const objFull = Object.entries(person)
+
+console.log(objKeys , "keys");
+console.log(objValues , "values");
+console.log(objFull, "full");
+
+Output : 
+
+[ 'name', 'lName', 'age' ] 'keys'
+[ 'shivam', 'garg', 23 ] 'values'
+[ [ 'name', 'shivam' ], [ 'lName', 'garg' ], [ 'age', 23 ] ] 'full'
+
+

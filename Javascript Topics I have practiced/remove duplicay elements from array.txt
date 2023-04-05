@@ -1,0 +1,13 @@
+
+    const arr  = [1,2, 2, 3, 4, 4];
+    const removeDuplicacy = () =>{
+          const duplicate =  arr.filter((values,index)=>{
+          return arr.indexOf(values) === index
+            })
+         console.log(duplicate)
+    }
+ 
+    removeDuplicacy()
+
+
+

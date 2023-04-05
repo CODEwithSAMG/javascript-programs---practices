@@ -1,0 +1,14 @@
+// call method
+
+function myFunc () {
+    
+    console.log(`${this.name}`)
+}
+
+const person = {
+    name:'Shivam',
+    age: 24,
+    
+}
+
+myFunc.call(person)

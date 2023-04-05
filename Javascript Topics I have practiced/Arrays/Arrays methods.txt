@@ -1,0 +1,8 @@
+
+let fruits = ["apple", "banana"];
+// fruits[1] = "mango";
+fruits[2] = "dragon fruit";
+console.log(fruits);
+console.log(fruits[0]);
+console.log(fruits[1]);
+console.log(fruits[2]);

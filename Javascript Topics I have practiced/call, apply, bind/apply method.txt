@@ -1,0 +1,14 @@
+//apply method in which we can accept multiple arguments through data array
+
+const person = {
+    name:'Shivam',
+    age: 24,
+    lname: 'Garg'
+}
+
+function myFunc (data1,data2,data3) {
+        console.log(`${this.name}, ${this.age} , ${this.lname}`)
+}
+
+const data = [1,2,3]
+myFunc.apply(person, data)

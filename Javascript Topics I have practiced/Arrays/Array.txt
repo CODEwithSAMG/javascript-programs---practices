@@ -1,0 +1,25 @@
+// let arr = ["apple", "banana", "pomegranate", "sitaful", true]
+// console.log(arr.indexOf('pomegranate'))
+output: 2
+
+
+
+
+//to find length 
+let arr2 = ["apple", "banana", "pomegranate", "sitaful"]
+console.log(arr2.length)
+output: object
+
+
+
+//to find last element in array
+let arr = ["apple", "banana", "pomegranate", "sitaful"]
+console.log(arr[arr.length - 1])
+output: sitaful
+
+
+
+// type of 
+let arr3 = ["apple", "banana", "pomegranate", "sitafal"]
+console.log(typeof arr3)
+output: object
